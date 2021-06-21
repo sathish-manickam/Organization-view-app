@@ -1,0 +1,65 @@
+{
+  "name": "CEO",
+  "children": [
+    {
+      "name": "Manager",
+      "attributes": {
+        "department": "Production"
+      },
+      "children": [
+        {
+          "name": "Team Lead",
+          "attributes": {
+            "department": "Fabrication"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        },
+        {
+          "name": "Team Lead",
+          "attributes": {
+            "department": "Assembly"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manager",
+      "attributes": {
+        "department": "Marketing"
+      },
+      "children": [
+        {
+          "name": "Team Lead",
+          "attributes": {
+            "department": "A"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        },
+        {
+          "name": "Team Lead",
+          "attributes": {
+            "department": "B"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

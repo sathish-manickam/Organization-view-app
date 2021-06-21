@@ -1,0 +1,70 @@
+{
+  "name": "Vijay",
+  "occupication": "CEO",
+  "children": [
+    {
+      "name": "Thillai Rajan",
+      "occupication": "Manager",
+      "attributes": {
+        "department": "Production"
+      },
+      "children": [
+        {
+          "name": "Team Lead 1",
+          "attributes": {
+            "department": "Fabrication"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        },
+        {
+          "name": "Team Lead 2",
+          "attributes": {
+            "department": "Assembly"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shishir",
+      "occupication": "Manager",
+      "attributes": {
+        "department": "Marketing"
+      },
+      "children": [
+        {
+          "name": "Rajeev Sathish",
+          "occupication": "Team Lead",
+          "attributes": {
+            "department": "A"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        },
+        {
+          "name": "Ankit Verma",
+          "occupication": "Team Lead",
+          "attributes": {
+            "department": "B"
+          },
+          "children": [
+            {
+              "name": "Software Engineer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
